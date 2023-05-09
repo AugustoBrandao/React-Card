@@ -1,7 +1,7 @@
 # Componentes Controlados
 Em resumo, o próprio estado e a função responsável por alterar esse estado ficam no componente pai (no caso, o App). A função responsável por alterar o estado será passada do componente pai para o filho através de uma prop.
 
-1- Declare o estado no componente App
+1- Declare o estado no componente App <br>
 2- Por organização, vamos separar as informações do cartão em um objeto dentro do state, para que possamos enviar todos os dados de uma vez só
 3- Vamos passar esse estado adiante, enviando o objeto cardInfo para o componente Form 
 4- Desestruture o cardInfo no componente Form
