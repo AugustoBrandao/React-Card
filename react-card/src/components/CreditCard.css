@@ -1,0 +1,37 @@
+.credit-card {
+    margin-top: 16px;
+    width: 300px;
+    height: 190px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .credit-card__logo {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .credit-card__number {
+    margin-top: 30px;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  
+  .credit-card__info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-size: 14px;
+  }
+  
+  .credit-card__holder {
+    text-transform: uppercase;
+  }
+  
+  .credit-card__expiry {
+    letter-spacing: 1px;
+  }
